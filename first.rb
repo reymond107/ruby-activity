@@ -14,7 +14,10 @@ contacts["Analyn Cajocson"] = contact_data[0]
 contacts["Avion School"] = contact_data[1]
 puts contacts
 
-age = 20
+#4
+print "How old are you? :"
+
+age = gets.chomp.to_i
 
 puts "How old are you?"
 puts "In 10 year your age will be #{age + 10}"
