@@ -19,7 +19,6 @@ print "How old are you? :"
 
 age = gets.chomp.to_i
 
-puts "How old are you?"
 puts "In 10 year your age will be #{age + 10}"
 puts "In 20 year your age will be #{age + 20}"
 puts "In 30 year your age will be #{age + 30}"
