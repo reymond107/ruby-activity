@@ -2,25 +2,18 @@
 
 
 class Confection
-end
-
-module Frosting
-    def frosting
-        
+    def prepare
+        puts "Baking at 350 degrees for 25 minutes."
     end
 end
 
 class Cupcakes < Confection
     def prepare
-        puts "Baking at 350 degrees for 25 minutes." 
-        puts "Applying frosting"
+        puts super + "Applying frosting"
     end
 end
 
 class Banana_Cake < Confection
-    def prepare
-        puts "Baking at 350 degrees for 25 minutes." 
-    end
 end
 
 
