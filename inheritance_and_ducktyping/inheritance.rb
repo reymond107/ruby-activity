@@ -17,9 +17,9 @@ class CivilEngineer < Engineer
 end
 
 class MechanicalEngineer < Engineer
-    # def builds_things
-    #     puts "builds machinery"
-    # end
+    def builds_things
+        puts "builds machinery"
+    end
 end
 
 tom = MechanicalEngineer.new
