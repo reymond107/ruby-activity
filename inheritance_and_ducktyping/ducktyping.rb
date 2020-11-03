@@ -22,15 +22,3 @@ new_engineer.builds_things(tom)
 
 bob = MechanicalEngineer.new
 new_engineer.builds_things(bob)
-
-# class Payment
-#     def type(payment)
-#         payment.type
-#     end
-# end
-
-# class FullyPaid
-#     def type
-        
-#     end
-# end
