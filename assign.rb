@@ -16,9 +16,6 @@ end
 class Banana_Cake < Confection
 end
 
-
-
-
 cup = Cupcakes.new
 cup.prepare
 
