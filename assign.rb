@@ -8,7 +8,8 @@ end
 
 class Cupcakes < Confection
     def prepare
-        puts super + "Applying frosting"
+        super
+        puts "Applying frosting"
     end
 end
 
