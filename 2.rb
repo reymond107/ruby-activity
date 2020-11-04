@@ -36,7 +36,6 @@ while name != "STOP"
   name = gets.chomp
 end
 
-
 #4
 arr = [6,3,1,8,4,2,10,65,102]
 arr2 = Array.new
