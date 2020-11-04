@@ -11,7 +11,7 @@ class CivilEngineer
 end
 
 class MechanicalEngineer
-    def builds_things
+    def builds_thingsr
         puts "builds machinery"
     end
 end
